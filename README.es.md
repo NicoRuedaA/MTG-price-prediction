@@ -51,22 +51,22 @@ mtg-price-predictor/ <br>
 ## 🚀 Cómo ejecutar este proyecto
 
 1. Clona el repositorio:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/TU_USUARIO/mtg-price-predictor.git
-   \`\`\`
+   ```
 2. Navega al directorio del proyecto:
-   \`\`\`bash
+   ```bash
    cd mtg-price-predictor
-   \`\`\`
+   ```
 3. Instala las dependencias necesarias:
-   \`\`\`bash
+   ```bash
    pip install -r requirements.txt
-   \`\`\`
+   ```
 4. Abre el Jupyter Notebook:
-   \`\`\`bash
+   ```bash
    jupyter notebook notebooks/mtg*price_model.ipynb
-   \`\`\`
-   \_Nota: El cuaderno se conectará automáticamente a la API de Scryfall en la primera ejecución para trabajar con los datos más recientes del mercado.*
+   ```
+   \_Nota: El cuaderno se conectará automáticamente a la API de Scryfall en la primera ejecución para trabajar con los datos más recientes del mercado.\*
 
 ## 🛠️ Tecnologías Utilizadas
 
