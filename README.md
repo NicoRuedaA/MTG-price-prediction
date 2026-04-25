@@ -53,8 +53,8 @@ mtg-price-predictor/ <br>
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/TU_USUARIO/mtg-price-predictor.git
-
+   git clone https://github.com/NicoRuedaA/MTG-price-prediction.git
+   cd MTG-price-prediction
    ```
 
 2. Navigate to the project directory:
@@ -67,15 +67,15 @@ mtg-price-predictor/ <br>
    ```
 4. Open the Jupyter Notebook:
    ```bash
-   jupyter notebook notebooks/mtg*price_model.ipynb
+   jupyter notebook notebooks/mtg_price_model.ipynb
    ```
-   \_Note: The notebook will automatically connect to the Scryfall API on the first run to work with the latest market data.\*
+   Note: The notebook will automatically connect to the Scryfall API on the first run to work with the latest market data.
 
 ## 🛠️ Technologies Used
 
 - **Data Manipulation:** `pandas`, `requests`
 - **Machine Learning:** `scikit-learn` (RandomForest, PCA, t-SNE, SimpleImputer, StandardScaler)
-- **Visualization:** `matplotlib`, `seaborn`, `plotly` (para gráficos interactivos en 3D)
+- **Visualization:** `matplotlib`, `seaborn`, `plotly` (interactive 3D charts)
 
 ---
 
